@@ -46,6 +46,13 @@
 
                 <v-list-item-title>かんばん</v-list-item-title>
             </v-list-item>
+            <v-list-item @click="clickCanvas">
+                <v-list-item-icon>
+                    <v-icon>mdi-view-week</v-icon>
+                </v-list-item-icon>
+
+                <v-list-item-title>キャンバス</v-list-item-title>
+            </v-list-item>
         </v-list>
     </v-card>
 </template>

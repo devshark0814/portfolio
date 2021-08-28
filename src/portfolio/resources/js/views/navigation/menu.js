@@ -15,6 +15,9 @@ export default {
         },
         clickKanban() {
             this.$router.push("/kanban");
-        }
+        },
+        clickCanvas() {
+            this.$router.push("/canvas");
+        },
     }
 };

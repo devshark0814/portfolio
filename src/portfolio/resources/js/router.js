@@ -9,6 +9,7 @@ import Ranking from "./views/rakutenApi/ranking/ranking.vue";
 import SearchRanking from "./views/rakutenApi/searchRanking/searchRanking.vue";
 import Genre from "./views/rakutenApi/genre/genre.vue";
 import Kanban from "./views/kanban/kanban.vue";
+import Canvas from "./views/canvas/canvas.vue";
 
 
 const router = new VueRouter({
@@ -43,6 +44,11 @@ const router = new VueRouter({
             path: "/kanban",
             name: "Kanban",
             component: Kanban,
+        },
+        {
+            path: "/canvas",
+            name: "Canvas",
+            component: Canvas,
         },
     ]
 });
