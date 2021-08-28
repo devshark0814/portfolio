@@ -1,0 +1,26 @@
+.task_card_header {
+    margin-bottom: 10px !important;
+}
+
+.task_card_header_color_todo {
+    border-top: solid 4px #D84315 !important;
+}
+.task_card_header_color_doing {
+    border-top: solid 4px #EF6C00 !important;
+}
+.task_card_header_color_review {
+    border-top: solid 4px #1565C0 !important;
+}
+.task_card_header_color_done {
+    border-top: solid 4px #66A638 !important;
+}
+
+.task_title {
+    color: black !important;
+    font-weight: bold !important;
+    padding-bottom: 15px !important;
+}
+
+.task_body {
+    padding-bottom: 15px !important;
+}

@@ -1,0 +1,17 @@
+.card_header {
+    text-align: center !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.v-card__text ul{
+    padding: 0 !important;
+    height: 750px !important;
+}
+
+#parentCard > .v-card__text {
+    overflow-y: scroll;
+}
+#parentCard > .v-card__text::-webkit-scrollbar{
+    display: none;
+}
